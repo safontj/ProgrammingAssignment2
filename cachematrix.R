@@ -65,6 +65,5 @@ cacheSolve <- function(x, ...) {
         ## stores inverse in cache thorugh setinverse
         x$setinverse(m)
         
-        ## inverse retrieved from cache
         m
 }
